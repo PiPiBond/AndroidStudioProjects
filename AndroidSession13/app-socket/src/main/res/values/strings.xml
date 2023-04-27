@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">app-socket</string>
+    <string name="open_socket">打开服务器（Socket）</string>
+    <string name="connection_socket">连接服务器（Socket）</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical"
+    tools:context=".tabs.MeFragment">
+
+    <include layout="@layout/user_info" />
+
+    <Button
+        android:id="@+id/buttonComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast Test(Component)"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast Test(String)"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+</LinearLayout>

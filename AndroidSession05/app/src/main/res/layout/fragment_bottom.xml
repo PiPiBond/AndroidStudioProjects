@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tabGroup" />
+
+    <RadioGroup
+        android:id="@+id/tabGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/chats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/chat_selector"
+            android:gravity="center_horizontal"
+            android:text="微信"
+            android:checked="true"
+            android:textColor="@color/text_selector"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/contacts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/contact_selector"
+            android:gravity="center_horizontal"
+            android:text="通讯录"
+            android:textColor="@color/text_selector"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/discover"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/discover_selector"
+            android:gravity="center_horizontal"
+            android:text="发现"
+            android:textColor="@color/text_selector"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/me_selector"
+            android:gravity="center_horizontal"
+            android:text="我"
+            android:textColor="@color/text_selector"
+            android:textSize="12dp" />
+    </RadioGroup>
+</RelativeLayout>

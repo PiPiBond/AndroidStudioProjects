@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidSession08"
+        tools:targetApi="31">
+        <activity
+            android:name=".banner.BannerActivity"
+            android:label="图片轮播"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".launch_mode.LaunchModeActivity"
+            android:exported="false"
+            android:label="LaunchMode">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".launch_mode.SingleInstanceActivity"
+            android:exported="false"
+            android:label="SingleInstance 模式的Activity"
+            android:launchMode="singleInstance">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".launch_mode.SingleTaskActivity"
+            android:exported="false"
+            android:label="SingleTask 模式的Activity"
+            android:launchMode="singleTask">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".launch_mode.SingleTopModeActivity"
+            android:exported="false"
+            android:label="SingleTop 模式的Activity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".launch_mode.StandardModeActivity"
+            android:exported="false"
+            android:label="Standard 模式的Activity"
+            android:launchMode="standard">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".life_cycle.LifeCycleActivity"
+            android:exported="false"
+            android:label="LifeCycleActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".life_cycle.CustomDialogActivity"
+            android:exported="false"
+            android:label="CustomDialogActivity"
+            android:theme="@style/Theme.AppCompat.Dialog">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".life_cycle.CustomActivity"
+            android:exported="false"
+            android:label="CustomActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/background_red"
+        android:title="背景切换">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/bg_day"
+                    android:title="白天" />
+                <item
+                    android:id="@+id/bg_night"
+                    android:title="夜晚" />
+            </group>
+        </menu>
+    </item>
+</menu>

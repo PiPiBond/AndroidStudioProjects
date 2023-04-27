@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="4"
+        android:rowCount="6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_gravity="right"
+            android:text="0" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="/" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="1" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="2" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="3" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="*" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="4" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="5" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="6" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="-" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="7" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="8" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="9" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:layout_rowSpan="3"
+            android:layout_rowWeight="3"
+            android:text="+" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:text="0" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:text="00" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_columnWeight="3"
+            style="@style/ButtonTheme"
+            android:text="=" />
+    </GridLayout>
+
+</RelativeLayout>

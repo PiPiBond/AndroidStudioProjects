@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidSession-05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_contact_fragment">Hello contact fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_discover_fragment">Hello discover fragment</string>
+</resources>

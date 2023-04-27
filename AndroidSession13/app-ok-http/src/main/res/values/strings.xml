@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">app-ok-http</string>
+    <string name="user">用户名</string>
+    <string name="user_hint">请输入用户名</string>
+    <string name="password">密 码</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="ok_get">访问页面</string>
+    <string name="ok_post">登录系统</string>
+</resources>

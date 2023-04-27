@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonTheme" parent="@android:style/Widget.Button">
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+</resources>

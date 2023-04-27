@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+    <script type="text/javascript">
+    function check() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username==password){
+            window.object.toastSuccess()
+        }else {
+            window.object.toastFail()
+        }
+    }
+
+    </script>
+    <style>
+        form{
+            width:50%;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+<form>
+    <input type="text" id="username" placeholder='请输入用户名'/><br/>
+    <input type="password" id="password" placeholder='请输入密码'/><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="登录" onclick="check()"/><br/>
+</form>
+</body>
+</html>

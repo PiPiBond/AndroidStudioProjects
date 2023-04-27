@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Session-06</string>
+    <string name="basic_info">基本信息</string>
+    <string name="simple_list">简单列表</string>
+    <string name="radio_list">单选列表</string>
+    <string name="checkbox_list">多选列表</string>
+    <string name="custom_list">自定义列表</string>
+    <string name="custom_dialog">自定义对话框</string>
+</resources>
